@@ -28,9 +28,3 @@ export DUID=$(id -u) && export DGID=$(id -g)
     ```shell script
     docker-compose exec app vendor/bin/phpunit
     ```
-
-After start docker-compose you will see in your browser the next one:
-
-![Screenshot_2020-05-12_at_15.12.54](/uploads/0ae4961e86a2bd8ddd5472de03351a71/Screenshot_2020-05-12_at_15.12.54.png)
-
-This is a page with information about server environment variables, request and response data.
