@@ -12,8 +12,8 @@ use Twig\Error\{LoaderError, RuntimeError, SyntaxError};
  */
 class MainController
 {
-    private const QUOTE = <<<TXT
-I have a dream that one day, down in Alabama, with its vicious racists, with its governor having his lips dripping with the words of "interposition" and "nullification"
+    private const FIO_student = <<<TXT
+today 13-05-2020
 TXT;
 
     private SerializerInterface $serializer;
